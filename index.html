@@ -8,7 +8,17 @@ body{margin:0;font-family:sans-serif;background:#0f172a;color:white;text-align:c
 header{padding:70px;background:linear-gradient(135deg,#ff006a,#6e00ff,#00d4ff)}
 .card{background:#1e293b;margin:-40px auto;max-width:800px;padding:30px;border-radius:20px}
 .btn{display:inline-block;margin:8px;padding:13px 24px;background:#38bdf8;color:#000;border-radius:30px;text-decoration:none;font-weight:bold}
-.btn-pink{background:#ff006a;color:white}
+.btn-pink{background:#ff006a;color:white}@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-15px);}
+  60% {transform: translateY(-8px);}
+}
+h1{animation: bounce 2.5s infinite;}
+.card{animation: fadeIn 1.2s ease-out;}
+@keyframes fadeIn {
+  from {opacity:0; transform: translateY(40px);}
+  to {opacity:1; transform: translateY(0);}
+}
 </style>
 </head>
 <body>
