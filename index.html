@@ -29,7 +29,27 @@ function changeColor(){
 }
 </script>
 Sent 1m ago
-Compose
+<!-- Mini Logo Maker - Freelancing Tool -->
+<div style="margin-top:40px; background:white; padding:20px; border-radius:15px; text-align:center;">
+<h3 style="color:#333;">🎨 Mini Logo Maker</h3>
+<input type="text" id="logoText" placeholder="তোমার নাম লেখো" value="Palash" style="padding:10px; border-radius:8px; border:2px solid #ddd; width:70%;">
+<br><br>
+<button onclick="makeLogo()" style="padding:10px 20px; background:#2ed573; color:white; border:none; border-radius:8px; font-weight:bold;">Logo বানাও</button>
+<div id="logoResult" style="margin-top:20px; font-size:40px; font-weight:900; color:#ff4757; height:60px;"></div>
+</div>
+
+<script>
+function makeLogo(){
+  const text = document.getElementById('logoText').value;
+  const result = document.getElementById('logoResult');
+  result.innerText = text;
+  const colors = ["#ff4757", "#2ed573", "#1e90ff", "#ffa502", "#7f00ff"];
+  result.style.color = colors[Math.floor(Math.random()*colors.length)];
+  result.style.transform = "scale(1.2)";
+  setTimeout(()=> result.style.transform = "scale(1)", 300);
+}
+</script>
+  Compose
 Write to
 
 
