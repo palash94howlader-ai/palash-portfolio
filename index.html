@@ -38,26 +38,21 @@ function changeColor(){
 }
 </script>
 Sent 1m ago
-<!-- Mini Logo Maker - Freelancing Tool -->
-<div style="margin-top:40px; background:white; padding:20px; border-radius:15px; text-align:center;">
-<h3 style="color:#333;">🎨 Mini Logo Maker</h3>
-<input id="logoText" placeholder="তোমার নাম লেখো">
-<br><br>
-<label>🎨 Color বাছো: </label>
-<input type="color" id="logoColor" value="#ff0000">
-<br><br>
-<label>✍️ Design বাছো: </label>
-<select id="logoStyle">
-  <option value="normal">Normal</option>
-  <option value="bold">Bold - মোটা</option>
-  <option value="italic">Italic - বাঁকা</option>
+<div style="text-align:center; background:white; padding:25px; border-radius:20px; max-width:400px; margin:20px auto;">
+<h2 style="text-align:center;">🎨 Mini Logo Maker</h2>
+<p style="text-align:center;">তোমার নাম লেখো, Color বাছো!</p>
+<input id="logoText" placeholder="তোমার নাম লেখো" style="display:block; margin:15px auto; padding:12px; width:85%; text-align:center; border-radius:10px; border:1px solid #ccc; font-size:16px;">
+<label style="display:block; text-align:center; margin-top:15px;">🎨 Color বাছো:</label>
+<input type="color" id="logoColor" value="#ff0000" style="display:block; margin:10px auto; width:50px; height:40px;">
+<label style="display:block; text-align:center; margin-top:10px;">✍️ Design বাছো:</label>
+<select id="logoStyle" style="display:block; margin:10px auto; padding:12px; width:85%; text-ali
+  gn:center; border-radius:10px; font-size:16px;">
+<option value="normal">Normal</option>
+<option value="bold">Bold - মোটা</option>
+<option value="italic">Italic - বাঁকা</option>
 </select>
-<br><br>
-<button onclick="makeLogo()">Logo বানাও</button>
-<p id="logoResult"></p>
-<br><br>
-<button onclick="makeLogo()" style="padding:10px 20px; background:#2ed573; color:white; border:none; border-radius:8px; font-weight:bold;">Logo বানাও</button>
-<div id="logoResult" style="margin-top:20px; font-size:40px; font-weight:900; color:#ff4757; height:60px;"></div>
+<button onclick="makeLogo()" style="display:block; margin:20px auto; background:#22c55e; color:white; padding:15px 30px; border:none; border-radius:12px; font-size:18px; width:85%;">Logo Banao</button>
+<p id="logoResult" style="text-align:center; font-size:40px; margin-top:15px;"></p>
 </div>
 
 <script>
