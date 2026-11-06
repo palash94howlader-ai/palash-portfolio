@@ -1,66 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="google-site-verification" content="vaMZK1Y_VLL6TONG...">
+<meta charset="UTF-8">
+
+<title>Palash Howlader - Digital Creator & Web Developer | Mathbaria</title>
+<meta name="description" content="Palash Howlader - Digital Creator from Mathbaria, Bangladesh. Portfolio, YouTube Palash Media, Logo Maker.">
+<meta name="keywords" content="Palash Howlader, Palash Media, Mathbaria, Digital Creator">
+<meta name="author" content="Palash Howlader">
 <link rel="icon" type="image/jpeg" href="logo.jpg">
 <meta property="og:image" content="https://palash94howlader-ai.github.io/palash-portfolio/logo.jpg">
 <meta property="og:title" content="Palash Howlader - Digital Creator & Web Developer">
-<title>Palash Howlader - Digital Creator & Web Developer | Mathbaria</title>
-<meta name="description" content="Palash Howlader - Digital Creator from Mathbaria, Bangladesh. Portfolio, YouTube Palash Media, Web Developer.">
-<meta name="keywords" content="Palash Howlader, Palash Media, Mathbaria, Web Developer, Bangladesh">
-<meta name="author" content="Palash Howlader"> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-body{margin:0;font-family:sans-serif;background:#0f172a;color:white;text-align:center}
-header{padding:70px;background:linear-gradient(135deg,#ff006a,#6e00ff,#0044ff)}
-.card{background:#1e293b;margin:-40px auto;max-width:800px;padding:30px;border-radius:20px}
-.btn{display:inline-block;margin:8px;padding:13px 24px;background:#38bdf8;color:#000;border-radius:30px;text-decoration:none;font-weight:bold}
-.btn-pink{background:#ff006a;color:white}
-@keyframes bounce{0%,20%,50%,80%,100%{transform:translateY(0)}40%{transform:translateY(-15px)}60%{transform:translateY(-8px)}}
-@keyframes fadeIn{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:translateY(0)}}
-@keyframes glow{0%{text-shadow:0 0 5px #ff006a}50%{text-shadow:0 0 20px #ff006a,0 0 30px #6e00ff}100%{text-shadow:0 0 5px #ff006a}}
-h1{animation:bounce 2.5s infinite, glow 2s infinite}
-.card{animation:fadeIn 1.2s ease-out}
+body { font-family: Arial; text-align: center; background: #f0f0f0; margin: 0; padding: 20px; }
+h1 { color: #FF0000; font-size: 38px; }
+.card { background: white; padding: 20px; border-radius: 15px; margin: 15px auto; max-width: 500px; text-align: center; }
+button { padding: 12px 25px; background: #FF0000; color: white; border: none; border-radius: 10px; font-size: 18px; cursor: pointer; }
+img { border-radius: 10px; }
 </style>
 </head>
 <body>
+
 <img src="logo.jpg" alt="Palash Howlader" width="150" height="150">
-<!-- Level 2 - JavaScript Magic -->
-<div style="margin-top:30px;">
-<button onclick="changeColor()" style="padding:12px 25px; background:#ff4757; color:white; border:none; border-radius:25px; font-weight:bold; cursor:pointer;">🎨 রং বদলাও!</button>
+<h1>Palash Howlader</h1>
+<p>Ami Digital Creator</p>
+<p>Ami Mathbaria theke, Ami YouTuber</p>
+<p style="text-align:center;">🎥 YouTube: <a href="https://www.youtube.com/@palash94howlader" target="_blank" style="color:#FF0000; font-weight:bold;">Palash Media</a> | Page: Palashmultimedia24</p>
+
+<div class="card">
+<h2>🎨 রং বদলাও!</h2>
+<button onclick="changeColor()">🎨 রং বদলাও!</button>
 </div>
 
-<script>
-function changeColor(){
-  const colors = ["#ff6b6b", "#48dbfb", "#1dd1a1", "#feca57", "#5f27cd"];
-  const random = colors[Math.floor(Math.random()*colors.length)];
-  document.body.style.background = random;
-}
-</script>
-Sent 1m ago
 <div style="text-align:center; background:white; padding:25px; border-radius:20px; max-width:400px; margin:20px auto;">
 <h2 style="text-align:center;">🎨 Mini Logo Maker</h2>
-<p style="text-align:center;">তোমার নাম লেখো, Color বাছো!</p>
-<input id="logoText" placeholder="তোমার নাম লেখো" style="display:block; margin:15px auto; padding:12px; width:85%; text-align:center; border-radius:10px; border:1px solid #ccc; font-size:16px;">
-<label style="display:block; text-align:center; margin-top:15px;">🎨 Color বাছো:</label>
-<input type="color" id="logoColor" value="#ff0000" style="display:block; margin:10px auto; width:50px; height:40px;">
-<label style="display:block; text-align:center; margin-top:10px;">✍️ Design বাছো:</label>
-<select id="logoStyle" style="display:block; margin:10px auto; padding:12px; width:85%; text-ali
-  gn:center; border-radius:10px; font-size:16px;">
+<p style="text-align:center;">Tomar naam lekho, Color bacho!</p>
+<input id="logoText" placeholder="Tomar naam lekho" style="display:block; margin:15px auto; padding:12px; width:85%; text-align:center; border-radius:10px; border:1px solid #ccc; font-size:16px;">
+<label style="display:block; text-align:center; margin-top:15px;">Color</label>
+<input type="color" id="logoColor" value="#ff0000" style="display:block; margin:10px auto; width:60px; height:40px;">
+<label style="display:block; text-align:center; margin-top:10px;">Design</label>
+<select id="logoStyle" style="display:block; margin:10px auto; padding:12px; width:85%; text-align:center; border-radius:10px; font-size:16px;">
 <option value="normal">Normal</option>
-<option value="bold">Bold - মোটা</option>
-<option value="italic">Italic - বাঁকা</option>
+<option value="bold">Bold - Mota</option>
+<option value="italic">Italic - Baka</option>
 </select>
 <button onclick="makeLogo()" style="display:block; margin:20px auto; background:#22c55e; color:white; padding:15px 30px; border:none; border-radius:12px; font-size:18px; width:85%;">Logo Banao</button>
 <p id="logoResult" style="text-align:center; font-size:40px; margin-top:15px;"></p>
 </div>
 
+<div class="card">
+<h2>🎥 Amar YouTube Video</h2>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/JiJlejcUoJs" frameborder="0" allowfullscreen></iframe>
+<br><br>
+<a href="https://www.youtube.com/@palash94howlader" target="_blank"><button>Subscribe</button></a>
+<br><br>
+<a href="https://bit.ly/palash-howlader">Amar Site</a>
+</div>
+
 <script>
+function changeColor() {
+  var colors = ["#FF5733", "#33FF57", "#3357FF", "#FF33A1", "#FFFF33"];
+  var random = colors[Math.floor(Math.random() * colors.length)];
+  document.body.style.background = random;
+}
 function makeLogo() {
   var name = document.getElementById("logoText").value;
   var color = document.getElementById("logoColor").value;
   var style = document.getElementById("logoStyle").value;
   var result = document.getElementById("logoResult");
+  if (name == "") { result.innerText = "Age naam lekho!"; return; }
   result.innerText = name;
   result.style.color = color;
   result.style.fontSize = "40px";
@@ -69,35 +76,6 @@ function makeLogo() {
   if (style == "normal") { result.style.fontWeight = "normal"; result.style.fontStyle = "normal"; }
 }
 </script>
-  Compose
-Write to
-<!-- My YouTube Video - Palash Media -->
-<div style="margin-top:40px; background:white; padding:20px; border-radius:15px; text-align:center;">
-<h3 style="color:#333;">🎥 My Latest Video</h3>
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/JiJlejcUoJs" style="border-radius:10px; border:none;" allowfullscreen></iframe>
-<p style="color:#666; margin-top:10px;">YouTube: Palash Media | Mathbaria</p>
-<a href="https://youtube.com/shorts/JiJlejcUoJs?si=_t9gP43EDG2C8j6a" target="_blank" style="display:inline-block; margin-top:10px; padding:8px 15px; background:#FF0000; color:white; text-decoration:none; border-radius:20px;">▶️ YouTube এ দেখো</a>
-</div>
 
-
-  <body>
-<header>
-<img src="palash.jpg" style="width:130px;height:130px;border-radius:50%;border:4px solid white;margin-bottom:15px">
-<h1>Palash Howlader</h1>
-<p>Digital Creator | Future Web Developer<
-<p style="text-align:center;">🎥 YouTube: <a href="https://www.youtube.com/@palash94howlader" target="_blank" style="color:#FF0000; font-weight:bold;">Palash Media</a> | Page: Palashmultimedia24</p>
-</header>
-<div class="card">
-<h2>About Me</h2>
-<p>I am learning web development. This is my first portfolio!</p>
-<p>Digital Creator | YouTube: Palash Media | Currently learning Git Hub, HTML, CSS</p>
-<p>Today I learned professional merging!</p>
-<p>
-<a class="btn btn-pink" href="https://www.youtube.com/@palashmedia">YouTube</a>
-<a class="btn" href="https://www.facebook.com/palash.howlader.568">Facebook</a>
-<a class="btn" href="https://github.com/palash94howlader-ai">Git Hub</a>
-</p>
-<p><a class="btn" href="https://bit.ly/palash-howlader">My Portfolio Link</a></p>
-</div>
 </body>
 </html>
